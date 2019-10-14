@@ -99,7 +99,7 @@ func main() {
 	// TODO support config from file and env vars
 	flag.Parse()
 
-	if opts.zcashConfPath == "" {
+	if opts.pirateConfPath == "" {
 		flag.Usage()
 		os.Exit(1)
 	}
